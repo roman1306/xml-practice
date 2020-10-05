@@ -59,6 +59,7 @@ public class ConverterStorageRepositoryImpl implements ConverterStorageRepositor
         GsonBuilder gsonBuilder = new GsonBuilder();
         gsonBuilder.setPrettyPrinting();
         gsonBuilder.disableHtmlEscaping();
+        gsonBuilder.setDateFormat("yyyy-MM-dd");
 
         Gson gson = gsonBuilder.create();
         return gson.toJson(storage, Storage.class);
