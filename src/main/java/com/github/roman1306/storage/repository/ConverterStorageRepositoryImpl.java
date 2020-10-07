@@ -14,6 +14,7 @@ import java.io.*;
 public class ConverterStorageRepositoryImpl implements ConverterStorageRepository {
 
     JAXBContext jaxbContext;
+    Gson gson;
 
     @Override
     public Storage convertXmlToObject(FileReader in) {
@@ -34,7 +35,7 @@ public class ConverterStorageRepositoryImpl implements ConverterStorageRepositor
     public Storage convertJsonToObject(FileReader in) {
 
         JsonReader jsonReader = new JsonReader(in);
-        Gson gson = new Gson();
+        gson = new Gson();
         return gson.fromJson(jsonReader, Storage.class);
     }
 
@@ -61,7 +62,7 @@ public class ConverterStorageRepositoryImpl implements ConverterStorageRepositor
         gsonBuilder.disableHtmlEscaping();
         gsonBuilder.setDateFormat("yyyy-MM-dd");
 
-        Gson gson = gsonBuilder.create();
+        gson = gsonBuilder.create();
         return gson.toJson(storage, Storage.class);
     }
 }
