@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<storage xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+        xsd:noNamespaceSchemaLocation="goods.xsd">
+
+
+    <category name="telephones and gadgets for qa">
+        <subcategory name="telephones">
+            <product>
+                <maker>limbo</maker>
+                <model>ab163</model>
+                <productionDate>2019-09-24</productionDate>
+                <color>red</color>
+                <price available="false">35.8</price>
+            </product>
+        </subcategory>
+        <subcategory name="plane table">
+            <product>
+                <maker>gray</maker>
+                <model>df165</model>
+                <productionDate>2019-09-24</productionDate>
+                <color>white</color>
+                <price available="true">10</price>
+            </product>
+        </subcategory>
+    </category>
+
+    <category name="domestic appliances">
+        <subcategory name="vacuum cleaners">
+            <product>
+                <maker>limbo</maker>
+                <model>fr471</model>
+                <productionDate>2019-09-24</productionDate>
+                <color>yellow</color>
+                <price available="false">85</price>
+            </product>
+        </subcategory>
+        <subcategory name="fridges">
+            <product>
+                <maker>frank</maker>
+                <model>bg646</model>
+                <productionDate>2019-09-24</productionDate>
+                <color>green</color>
+                <price available="false">25.9</price>
+            </product>
+        </subcategory>
+    </category>
+
+    <category name="computers">
+        <subcategory name="PC">
+            <product>
+                <maker>stark</maker>
+                <model>gf888</model>
+                <productionDate>2019-09-24</productionDate>
+                <color>red</color>
+                <price available="true">75</price>
+            </product>
+        </subcategory>
+        <subcategory name="laptop">
+            <product>
+                <maker>stark</maker>
+                <model>xs789</model>
+                <productionDate>2019-09-24</productionDate>
+                <color>blue</color>
+                <price available="true">25.5</price>
+            </product>
+        </subcategory>
+    </category>
+
+</storage>

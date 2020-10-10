@@ -4,7 +4,7 @@
         xsd:noNamespaceSchemaLocation="goods.xsd">
 
 
-    <category name="telephones and gadgets">
+    <category name="telephones and gadgets for production">
         <subcategory name="telephones">
             <product>
                 <maker>limbo</maker>

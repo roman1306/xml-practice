@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "name": "telephones and gadgets for qa",
+      "subcategories": [
+        {
+          "name": "telephones",
+          "products": [
+            {
+              "maker": "limbo",
+              "model": "ab163",
+              "productionDate": "2019-09-24",
+              "color": "red",
+              "price": {
+                "price": 35.8,
+                "available": "false"
+              }
+            }
+          ]
+        },
+        {
+          "name": "plane table",
+          "products": [
+            {
+              "maker": "gray",
+              "model": "df165",
+              "productionDate": "2019-09-24",
+              "color": "white",
+              "price": {
+                "price": 10.0,
+                "available": "true"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "domestic appliances",
+      "subcategories": [
+        {
+          "name": "vacuum cleaners",
+          "products": [
+            {
+              "maker": "limbo",
+              "model": "fr471",
+              "productionDate": "2019-09-24",
+              "color": "yellow",
+              "price": {
+                "price": 85.0,
+                "available": "false"
+              }
+            }
+          ]
+        },
+        {
+          "name": "fridges",
+          "products": [
+            {
+              "maker": "frank",
+              "model": "bg646",
+              "productionDate": "2019-09-24",
+              "color": "green",
+              "price": {
+                "price": 25.9,
+                "available": "false"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computers",
+      "subcategories": [
+        {
+          "name": "PC",
+          "products": [
+            {
+              "maker": "stark",
+              "model": "gf888",
+              "productionDate": "2019-09-24",
+              "color": "red",
+              "price": {
+                "price": 75.0,
+                "available": "true"
+              }
+            }
+          ]
+        },
+        {
+          "name": "laptop",
+          "products": [
+            {
+              "maker": "stark",
+              "model": "xs789",
+              "productionDate": "2019-09-24",
+              "color": "blue",
+              "price": {
+                "price": 25.5,
+                "available": "true"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

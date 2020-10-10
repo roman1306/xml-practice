@@ -4,8 +4,8 @@ import java.io.FileReader;
 
 public interface ConverterStorageService {
 
-    public void convertXmlToJson(FileReader reader);
+    void convertXmlToJson(FileReader reader);
 
-    public void convertJsonToXml(FileReader reader);
+    void convertJsonToXml(FileReader reader);
 
 }
